@@ -1,0 +1,44 @@
+MVC Tool - Automatic Model Generator
+
+[EN]
+Several times I have to use MVC framework for the creation of a portal or a webapp. 
+And many times, the dba had already built the architecture of the db.
+
+One of the most annoying things that I happen to do, is to 'translate' all tables or views, in Model classes.
+
+So one day, I created this simple but useful class. 
+It reads from db information and metadata of the table (or view) and returns them in the form of a class Model 
+
+Of course not always the class is ready for use, according to your needs you should make changes or add some function, 
+but I am of the opinion that it is better to make changes that write from 0 all model, 
+especially when the tables exceed 100 units.
+
+In short, a Developer Tool convenient and fast, at least to me has saved many hours of work ... I hope will be helpful to you.
+
+P.S. The tool as it is, only works with mysql db. 
+I did it so that you can implement the functions of data recovery from any type of db.
+Just a little bit!
+once implemented a recovery from the new db, if you want to write the solution in the forum dedicated to the class, 
+so that it is available to all ...
+
+
+[IT]
+Diverse volte mi è capitato di utilizzare framework MVC per la realizzazione di un portale o una webapp.
+E molte volte, il dba aveva già realizzato l'architettura del db.
+
+Una delle cose che più fastidiose che mi capita di fare, è quella di "tradurre" tutte le tabelle o viste, in classi Model.
+
+Così, un giorno ho creato questa semplice ma utile classe.
+Che legge dal db le informarmazioni e metadati della tabella (o vista) e li riporta sotto forma di una classe Model...
+
+Ovviamente non sempre la classe è pronta per l'utilizzo, a seconda delle necessità sarà opportuno fare delle modifiche o aggiungere qualche
+function, ma sono del parere che è meglio apportare delle modifiche che scrivere da 0 tutti i model, sopratutto quando le tabelle superano le 
+100 unità.
+
+Insomma un Developer Tool comodo e veloce, almeno a me ha risparmiato parecchie ore di lavoro...spero possa essere d'aiuto anche a voi.
+
+P.S.
+Il tool così com'è, funziona solo con db mysql.
+Ho fatto in modo che possiate implementare le funzioni di recupero dei dati da ogni tipo di db.
+Basta solo un po di ingegno!, una volta che avrete implementato un recupero dal nuovo db, se volete potrete comunicarmelo in modo da renderlo 
+disponibile a tutti... 
